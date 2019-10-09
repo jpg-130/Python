@@ -88,6 +88,10 @@ def min_distance_bottom_up(word1: str, word2: str) -> int:
 
 
 if __name__ == "__main__":
+    import doctest
+
+    doctest.testmod()
+
     solver = EditDistance()
 
     print("****************** Testing Edit Distance DP Algorithm ******************")
